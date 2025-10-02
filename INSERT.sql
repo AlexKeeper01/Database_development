@@ -56,7 +56,8 @@ INSERT INTO Review (ID_Review, ID_Client, ID_Bouquet, Contents, Rating) VALUES
 INSERT INTO Ordering (ID_Ordering, ID_Employee, ID_Address, ID_Discount_card, ID_Client, Total_price, Ordering_date, Status, Delivery_method) VALUES
 (1, 1, 1, 1, 1, 2375.00, '2026-01-15', 'delivered', 'courier'),
 (2, 2, 2, 2, 2, 1530.00, '2026-01-16', 'preparing', 'pickup'),
-(3, 3, 3, 3, 3, 3750.00, '2026-01-17', 'confirmed', 'post');
+(3, 3, 3, 3, 3, 3750.00, '2026-01-17', 'confirmed', 'post'),
+(4, 2, 1, 1, 1, 5250.00, '2026-02-11', 'preparing', 'post');
 
 INSERT INTO Order_Bouquet (ID_Order_Bouquet, ID_Ordering, ID_Bouquet, Quantity) VALUES
 (1, 1, 1, 1),
